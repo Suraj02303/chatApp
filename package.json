@@ -1,0 +1,20 @@
+{
+  "name": "chatcord",
+  "version": "1.0.0",
+  "description": "RealTime chat app with room",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Suraj Gupta",
+  "license": "MIT"
+}
